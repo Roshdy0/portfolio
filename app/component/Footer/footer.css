@@ -1,0 +1,38 @@
+.footer-section {
+    background: var(--bg-card); 
+    border-top: 1px solid var(--glass-border);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+}
+.signature-text {
+    font-size: 1rem;
+    color: var(--text-main);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.signature-text .name {
+    color: var(--neon-purple);
+    text-shadow: 0 0 10px rgba(139, 92, 246, 0.4);
+    font-weight: 700;
+}
+.signature-text .ai {
+    color: var(--neon-blue);
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.4);
+    font-weight: 700;
+    font-style: italic;
+}
+.footer-social-icon {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+}
+.footer-social-icon:hover {
+    color: var(--text-main);
+    transform: translateY(-3px);
+}
+/* responsive adjustments */
+@media (max-width: 768px) {
+    .footer-section {
+        text-align: center;
+    }
+}

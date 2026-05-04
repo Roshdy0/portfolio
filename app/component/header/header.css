@@ -1,0 +1,99 @@
+.main-header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  transition: var(--smooth);
+
+  &.scrolled .nav-container {
+    background: var(--bg-card);
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+            backdrop-filter: blur(var(--glass-blur));
+    border-color: var(--glass-border);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-container {
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    transition: var(--smooth);
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: -1px;
+      span {
+        background: linear-gradient(to right, var(--neon-purple), var(--neon-blue));
+        -webkit-background-clip: text;
+                background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    }
+
+    .nav-link { 
+      cursor: pointer;
+      opacity: 0.7;
+      font-weight: 500;
+      position: relative;
+      font-size: 0.875rem;
+      color: var(--text-main); 
+      text-transform: uppercase;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        opacity: 1;
+        color: var(--neon-purple);
+      }
+    }
+    
+    .nav-actions {
+      .theme-toggle {
+        border: none;
+        padding: 0.5rem;
+        border-radius: 0.75rem;
+        color: var(--text-main);
+        background: var(--glass-border);
+        &:hover {
+          cursor: pointer;
+          color: white;
+          background: var(--neon-purple);
+        }
+      }
+
+      .cta-button {
+        cursor: pointer;
+        font-weight: 600;
+        border-radius: 0.75rem;
+        padding: 0.5rem 1.25rem;
+        color: var(--neon-purple);
+        border: 1px solid var(--neon-purple);
+        &:hover {
+          background: var(--neon-purple);
+          color: white;
+          box-shadow: var(--purple-glow);
+        }
+      }
+    }
+
+    .mobile-menu {
+      position: absolute;
+      top: 6rem;
+      left: 5%;
+      width: 90%;
+      background: var(--bg-card);
+      -webkit-backdrop-filter: blur(20px);
+              backdrop-filter: blur(20px);
+      border: 1px solid var(--glass-border);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+      a {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: var(--text-main);
+        border-bottom: 1px solid var(--glass-border);
+        padding-bottom: 0.5rem;
+      }
+    }
+  }
+}
