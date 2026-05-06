@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Geist, Geist_Mono } from "next/font/google";
+import CrispChat from "./component/FloatingButtons/Crisp-Chat/Crisp-Chat";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -27,10 +28,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
         <ThemeProvider attribute="data-theme" defaultTheme="dark">
           {children}
-          <link 
-            rel="stylesheet" 
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
-          />
+          <CrispChat />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
         </ThemeProvider>
       </body>
     </html>

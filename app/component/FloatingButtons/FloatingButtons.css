@@ -1,0 +1,56 @@
+.floating-container {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: var(--smooth);
+}
+
+.floating-container.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.chat-btn, .scroll-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: var(--smooth);
+    text-decoration: none;
+}
+
+.scroll-btn {
+    background: var(--main-gradient);
+}
+
+.scroll-btn:hover {
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+@media (max-width: 768px) {
+    .floating-container {
+        bottom: 85px;
+        right: 20px;
+        gap: 10px;
+    }
+
+    .scroll-btn {
+        width: 45px;
+        height: 45px;
+    }
+}
