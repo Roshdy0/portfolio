@@ -2,6 +2,8 @@
 
 import Script from "next/script";
 
+const websiteId = process.env.NEXT_PUBLIC_CRISP_WEBSITE_ID;
+
 const CrispChat = () => {
   return (
     <Script
@@ -10,7 +12,7 @@ const CrispChat = () => {
       dangerouslySetInnerHTML={{
         __html: `
           window.$crisp=[];
-          window.CRISP_WEBSITE_ID="9dd32200-147e-4855-a9e1-8f347dc52786";
+          window.CRISP_WEBSITE_ID = "${websiteId}";
           (function(){
             var d=document;
             var s=d.createElement("script");

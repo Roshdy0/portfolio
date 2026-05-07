@@ -43,12 +43,10 @@ const Header = () => {
   return (
     <header className={`main-header pt-4 ${isScrolled ? "scrolled" : ""}`}>
       <nav className="nav-container mx-auto w-[90%] lg:w-[85%] max-w-7xl flex items-center justify-between">
-        {/* Logo */}
         <div className="logo">
           <span>ROSHDY.DEV</span>
         </div>
 
-        {/* Links */}
         <ul className="nav-links hidden md:flex items-center gap-8">
           {links.map((link, index) => (
             <li key={index}>
@@ -62,9 +60,14 @@ const Header = () => {
         <div className="nav-actions flex items-center gap-6 md:gap-4">
           <ThemeToggle />
 
-          <button className="cta-button hidden md:block">
-            <a href="https://wa.me/+0201117651690">Let's Talk</a>
-          </button>
+          <a
+            href="https://linktr.ee/Roshdy_Mammdouh"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cta-button hidden md:block"
+          >
+            Let's Talk
+          </a>
 
           {/* Mobile Menu */}
           <button
