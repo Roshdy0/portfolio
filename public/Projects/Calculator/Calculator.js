@@ -1,4 +1,3 @@
-
 // Start Calculator 
 let container = document.querySelector(".Calculator"),
     input = document.querySelector(".input");
