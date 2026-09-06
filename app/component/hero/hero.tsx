@@ -18,7 +18,7 @@ const Hero = () => {
 
 					<div className="hero-btns mt-10 flex flex-wrap justify-center gap-6 md:justify-start">
 						<button className="btn-primary" aria-label="Download CV">
-							<a href="https://drive.google.com/file/d/1gdRSGix65G7OQQ8cAsL_ygQqH_ueGr7o/view?usp=drive_link" target="_blank" rel="noopener noreferrer" aria-label="Download CV">
+							<a href="https://drive.google.com/file/d/15LHVzjO06GJHjLt6DsogJvKlm4XRIKyi/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Download CV">
 								Download CV
 							</a>
 						</button>
