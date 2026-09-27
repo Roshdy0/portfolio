@@ -33,7 +33,7 @@ const Hero = () => {
 				<div className="hero-visual flex flex-1 items-center justify-end">
 					<div className="visual-card">
 						<div className="inner-glass">
-							<Image src="/images/my-image.webp" alt="Roshdy_Mammdouh_Frontend_React_NextJS" priority width={500} height={500} />
+							<Image src="/images/my-image.webp" alt="Roshdy_Mammdouh_Frontend_React_NextJS" priority width={500} height={500} fetchPriority="high" loading="eager" />
 						</div>
 					</div>
 				</div>

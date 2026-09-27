@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import SecurityCode from "./component/SecurityCode/SecurityCode";
 import "./globals.css";
+export const dynamic = "force-static";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -12,6 +13,12 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
 	variable: "--font-geist-mono",
 	subsets: ["latin"],
+});
+
+const spaceGrotesk = Space_Grotesk({
+	subsets: ["latin"],
+	weight: ["300", "400", "500", "600", "700"],
+	variable: "--font-space-grotesk",
 });
 
 export const metadata: Metadata = {
@@ -38,7 +45,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	};
 
 	return (
-		<html lang="en" suppressHydrationWarning>
+		<html lang="en" className={`${spaceGrotesk.className} ${spaceGrotesk.variable}`} suppressHydrationWarning>
 			<head>
 				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
 			</head>
