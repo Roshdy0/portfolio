@@ -50,7 +50,7 @@ const Header = () => {
 				<ul className="nav-links hidden md:flex items-center gap-8">
 					{links.map((link, index) => (
 						<li key={index}>
-							<Link to={link.to} className="nav-link" spy={true} smooth={true} duration={1000} aria-label={`Scroll to ${link.link}`}>
+							<Link to={link.to} href={`#${link.to}`} className="nav-link" spy={true} smooth={true} duration={1000} aria-label={`Scroll to ${link.link}`}>
 								{link.link}
 							</Link>
 						</li>

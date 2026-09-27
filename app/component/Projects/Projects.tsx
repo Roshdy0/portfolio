@@ -14,7 +14,7 @@ const Projects = () => {
 			image: "/images/Projects/Store.webp",
 			github: "https://github.com/Roshdy0/Roshdy.Dev",
 			demo: "https://store-dev-olive.vercel.app/",
-			tech: ["JavaScript", "CSS3", "Responsive UI"],
+			tech: ["React.js", "Next.js", "Tailwind CSS", "Framer Motion", "React Hook Form", "Zustand"],
 		},
 		{
 			title: "Tourism Egyptian",
