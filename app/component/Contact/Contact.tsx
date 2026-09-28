@@ -20,6 +20,15 @@ const Contact = () => {
 								</div>
 							</div>
 						</a>
+						<a href="tel:+201117651690" aria-label="Call Me">
+							<div className="card">
+								<i className="fa-solid fa-phone info-icon"></i>
+								<div>
+									<h3>Call Me</h3>
+									<p>+02 0111 765 1690</p>
+								</div>
+							</div>
+						</a>
 						<div className="card">
 							<i className="fa-solid fa-location-dot info-icon"></i>
 							<div>

@@ -1,9 +1,9 @@
 .footer-section {
-	background: var(--bg-card);
-	border-top: 1px solid var(--glass-border);
-	backdrop-filter: blur(var(--glass-blur));
-	position: relative;
 	z-index: 10;
+	position: relative;
+	background: var(--bg-card);
+	backdrop-filter: blur(var(--glass-blur));
+	border-top: 1px solid var(--glass-border);
 }
 
 .signature-text {
@@ -12,14 +12,9 @@
 	font-weight: 500;
 }
 
-.signature-text .name {
+.signature-text .name,
+.signature-text .ai {
 	color: var(--neon-purple);
 	text-shadow: var(--purple-glow);
 	font-weight: 700;
-}
-
-.signature-text .ai {
-	color: #38bdf8;
-	font-weight: 700;
-	font-style: italic;
 }

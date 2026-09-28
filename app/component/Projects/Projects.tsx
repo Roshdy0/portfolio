@@ -73,11 +73,11 @@ const Projects = () => {
 								<Image src={project.image} alt={project.title} className="project-img" width={500} height={300} priority={false} loading="lazy" />
 
 								<div className="project-links">
-									<a href={project.github} target="_blank" className="icon-link" rel="noreferrer" aria-label="GitHub Repository">
+									<a href={project.github} target="_blank" className="icon-link" rel="noreferrer" aria-label={`View ${project.title} GitHub repository`}>
 										<FontAwesomeIcon icon={faGithub} size="2x" />
 									</a>
 
-									<Link href={project.demo} target="_blank" className="icon-link demo-btn" rel="noopener noreferrer" aria-label="View Demo">
+									<Link href={project.demo} target="_blank" className="icon-link demo-btn" rel="noopener noreferrer" aria-label={`View ${project.title} Demo`}>
 										<FontAwesomeIcon icon={faLink} />
 									</Link>
 								</div>

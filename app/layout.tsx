@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
-// import SecurityCode from "./component/SecurityCode/SecurityCode";
+import SecurityCode from "./component/SecurityCode/SecurityCode";
 import "./globals.css";
 export const dynamic = "force-static";
 
@@ -51,8 +52,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 			</head>
 			<body>
 				<ThemeProvider attribute="data-theme" defaultTheme="dark">
-					{/* <SecurityCode>{children}</SecurityCode> */}
-					{children}
+					<SecurityCode>{children}</SecurityCode>
 				</ThemeProvider>
 			</body>
 		</html>
