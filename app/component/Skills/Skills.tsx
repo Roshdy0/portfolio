@@ -4,7 +4,7 @@ import "./Skills.css";
 
 const Skills = () => {
 	const skills = [
-		{ name: "Core Frontend Stack", level: "Advanced", lan: "JavaScript (ES6+), React.js, Next.js" },
+		{ name: "Core Frontend Stack", level: "Advanced", lan: "HTML5, CSS3, JavaScript (ES6+), React.js, Next.js" },
 		{ name: "Modern Styling", level: "Advanced", lan: "CSS3, SASS, Bootstrap 5, Tailwind CSS" },
 		{ name: "E-commerce (E-commerce & CMS)", level: "Intermediate", lan: "WordPress, Shopify Development" },
 		{ name: "The Analytical Edge", level: "Advanced", lan: "Automation (VBA), SQL Server, Database Management & Design" },

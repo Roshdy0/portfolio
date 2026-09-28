@@ -9,6 +9,14 @@ import { faLink } from "@fortawesome/free-solid-svg-icons";
 const Projects = () => {
 	const projects = [
 		{
+			title: "Luxury Digital Wedding Invitation",
+			description: "An interactive and elegant digital wedding invitation web app featuring a real-time countdown, custom glassmorphic UI, and seamless WhatsApp RSVP API integration.",
+			image: "/images/Projects/wedding-invitation.webp",
+			github: "https://github.com/Roshdy0/wedding-invitation",
+			demo: "https://wedding-invitation-sand-pi.vercel.app/",
+			tech: ["Next.js", "React.js", "Tailwind CSS", "Framer Motion", "WhatsApp API"],
+		},
+		{
 			title: "Store.Dev | Premium Developer Gear",
 			description: "The official  Store.Dev Store. Providing premium tools and technical gear to enhance your programming productivity.",
 			image: "/images/Projects/Store.webp",
@@ -47,14 +55,6 @@ const Projects = () => {
 			github: "https://github.com/Roshdy0/ToDo-List/tree/main",
 			demo: "/Projects/ToDoList/index.html",
 			tech: ["HTML5", "CSS3", "JavaScript", "Local Storage"],
-		},
-		{
-			title: "Cowboy Adventure UI",
-			description: "A high-fidelity gaming landing page featuring a cinematic theme, optimized for performance and immersive user experience.",
-			image: "/images/Projects/Cowboy Adventure UI.webp",
-			github: "https://github.com/Roshdy0/Cowboy-Adventure-UI",
-			demo: "/Projects/Cowboy-Adventure-UI/Main.html",
-			tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
 		},
 	];
 

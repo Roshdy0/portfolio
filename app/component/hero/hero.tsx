@@ -12,21 +12,23 @@ const Hero = () => {
 						I'm <span className="gradient-text">Roshdy Mammdouh</span>
 					</h1>
 					<p className="hero-description mx-auto max-w-lg md:mx-0">
-						Detail-oriented Frontend Developer equipped with Next.js and Tailwind CSS. Experienced in building responsive UI architectures, optimizing web performance (LCP, SEO), and
-						delivering visually engaging digital experiences. I focus on writing clean, scalable code that bridges the gap between design and robust functionality.
+						Performance-driven Frontend Developer with 3+ years of experience specializing in React.js, Next.js, TypeScript, and Tailwind CSS. Proven track record in building secure,
+						scalable, and responsive web applications with a strong focus on optimizing Core Web Vitals (LCP, TBT, SEO) to deliver seamless UI/UX and maximum performance.
 					</p>
 
 					<div className="hero-btns mt-10 flex flex-wrap justify-center gap-6 md:justify-start">
-						<button className="btn-primary" aria-label="Download CV">
-							<a href="https://drive.google.com/file/d/15LHVzjO06GJHjLt6DsogJvKlm4XRIKyi/view?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Download CV">
-								Download CV
-							</a>
-						</button>
-						<button className="btn-secondary" aria-label="Contact Me">
-							<a href="https://linktr.ee/Roshdy_Mammdouh" target="_blank" rel="noopener noreferrer" aria-label="Contact Me">
-								Contact Me
-							</a>
-						</button>
+						<a
+							className="btn-primary"
+							href="https://drive.google.com/file/d/15LHVzjO06GJHjLt6DsogJvKlm4XRIKyi/view?usp=sharing"
+							target="_blank"
+							rel="noopener noreferrer"
+							aria-label="Download CV"
+						>
+							Download CV
+						</a>
+						<a className="btn-secondary" href="https://linktr.ee/Roshdy_Mammdouh" target="_blank" rel="noopener noreferrer" aria-label="Contact Me">
+							Contact Me
+						</a>
 					</div>
 				</div>
 

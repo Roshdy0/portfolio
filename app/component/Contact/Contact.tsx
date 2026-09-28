@@ -15,7 +15,7 @@ const Contact = () => {
 							<div className="card">
 								<i className="fa-solid fa-envelope info-icon"></i>
 								<div>
-									<h4>Contact Me</h4>
+									<h3>Contact Me</h3>
 									<p>roshdy.mammdouh@gmail.com</p>
 								</div>
 							</div>

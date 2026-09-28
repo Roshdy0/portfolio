@@ -28,13 +28,13 @@ const About = () => {
 					</div>
 					<div className="about-content lg:w-2/3">
 						<h3 className="text-3xl font-bold">
-							Hello, I'm <span className="text-purple-400">Roshdy Mammdouh</span>
+							Hello, I'm <span className="gradient-text">Roshdy Mammdouh</span>
 						</h3>
-						<h4 className="text-xl text-gray-300 font-medium">Frontend Developer | Next.js & React.js</h4>
+						<h4 className="text-xl gradient-text font-medium">Frontend Developer | Next.js & React.js</h4>
 
 						<p className="bio-text">
 							I am a passionate Frontend Developer with over 3 years of experience specializing in building high-performance, scalable web applications. My expertise lies in{" "}
-							<strong className="text-purple-400">Next.js</strong> and <strong className="text-blue-400">React</strong>, where I transform complex problems into seamless, intuitive user
+							<strong className="gradient-text">Next.js</strong> and <strong className="gradient-text">React</strong>, where I transform complex problems into seamless, intuitive user
 							experiences. I write clean, maintainable code and always stay updated with the latest UI/UX trends.
 						</p>
 
