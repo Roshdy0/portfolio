@@ -12,8 +12,7 @@ const Hero = () => {
 						I'm <span className="gradient-text">Roshdy Mammdouh</span>
 					</h1>
 					<p className="hero-description mx-auto max-w-lg md:mx-0">
-						Performance-driven Frontend Developer with 3+ years of experience specializing in React.js, Next.js, TypeScript, and Tailwind CSS. Proven track record in building secure,
-						scalable, and responsive web applications with a strong focus on optimizing Core Web Vitals (LCP, TBT, SEO) to deliver seamless UI/UX and maximum performance.
+						Performance-driven Frontend Developer with 3+ years of experience specializing in React.js, Next.js (App Router), TypeScript, and Tailwind CSS. Proven track record in architecting fast, scalable web applications with a strong focus on optimizing Core Web Vitals (LCP, TBT, CLS), implementing modern state management, and delivering maximum performance with seamless UI/UX.
 					</p>
 
 					<div className="hero-btns mt-10 flex flex-wrap justify-center gap-6 md:justify-start">

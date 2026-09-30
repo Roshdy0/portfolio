@@ -1,61 +1,59 @@
 .contact {
 	background-color: var(--bg-main);
+
+	.card {
+		gap: 20px;
+		display: flex;
+		padding: 20px;
+		margin: 20px 0;
+		transition: 0.3s;
+		border-radius: 15px;
+		align-items: center;
+		background: var(--bg-card);
+		border: 1px solid var(--glass-border);
+
+		&:hover {
+			border-color: var(--neon-blue);
+			transform: translateX(10px);
+		}
+
+		.info-icon {
+			font-size: 1.5rem;
+			color: var(--neon-purple);
+		}
+
+		h4 {
+			color: var(--text-main);
+			font-weight: 700;
+		}
+
+		p {
+			color: var(--text-muted);
+		}
+	}
 }
 
-.contact .card {
-	gap: 20px;
-	display: flex;
-	padding: 20px;
-	margin: 20px 0;
-	transition: 0.3s;
-	border-radius: 15px;
-	align-items: center;
-	background: var(--bg-card);
-	border: 1px solid var(--glass-border);
-}
-
-.contact .card:hover {
-	border-color: var(--neon-blue);
-	transform: translateX(10px);
-}
-
-.contact .card .info-icon {
-	font-size: 1.5rem;
-	color: var(--neon-purple);
-}
-
-.contact .card h4 {
-	color: var(--text-main);
-	font-weight: 700;
-}
-
-.contact .card p {
-	color: var(--text-muted);
-}
-
-/* Social Buttons */
 .social-btn {
 	width: 50px;
 	height: 50px;
+	display: flex;
+	transition: 0.3s;
+	border-radius: 50%;
+	align-items: center;
+	text-decoration: none;
+	justify-content: center;
+	color: var(--neon-purple);
 	background: var(--bg-card);
 	border: 1px solid var(--glass-border);
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: var(--text-main);
-	transition: 0.3s;
-	text-decoration: none;
+
+	&:hover {
+		color: white;
+		transform: translateY(-5px);
+		box-shadow: var(--purple-glow);
+		background: var(--main-gradient);
+	}
 }
 
-.social-btn:hover {
-	background: var(--main-gradient);
-	color: white;
-	box-shadow: var(--purple-glow);
-	transform: translateY(-5px);
-}
-
-/* Form Styling */
 .contact-form {
 	background: var(--bg-card);
 	padding: 40px;

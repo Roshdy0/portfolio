@@ -41,7 +41,7 @@ const Projects = () => {
 			tech: ["HTML5", "CSS3", "jQuery", "Owl Carousel"],
 		},
 		{
-			title: "pro admin dashboard",
+			title: "Pro Admin Dashboard",
 			description: "Professional Admin Dashboard featuring a modern Glassmorphism UI and interactive Chart.js analytics. Built with clean HTML5/CSS3 architecture, fully responsive.",
 			image: "/images/Projects/Dashboard.webp",
 			github: "https://github.com/Roshdy0/pro-admin-dashboard",

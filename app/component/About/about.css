@@ -74,10 +74,10 @@
 }
 
 .bio-text {
-	color: var(--text-muted);
+	line-height: 2;
 	font-size: 1.1rem;
-	line-height: 1.8;
 	margin-bottom: 20px;
+	color: var(--text-muted);
 }
 
 .stat-card {

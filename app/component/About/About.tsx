@@ -14,7 +14,7 @@ const About = () => {
 					<div className="about-image-wrapper lg:w-1/3 flex justify-center">
 						<div className="avatar-container">
 							<Image
-								src="/images/my-image.webp"
+								src="/images/About.webp"
 								alt="Roshdy_Mammdouh_Frontend_React_NextJS"
 								placeholder="blur"
 								blurDataURL="data:..."
@@ -33,9 +33,13 @@ const About = () => {
 						<h4 className="text-xl gradient-text font-medium">Frontend Developer | Next.js & React.js</h4>
 
 						<p className="bio-text">
-							I am a passionate Frontend Developer with over 3 years of experience specializing in building high-performance, scalable web applications. My expertise lies in{" "}
-							<strong className="gradient-text">Next.js</strong> and <strong className="gradient-text">React</strong>, where I transform complex problems into seamless, intuitive user
-							experiences. I write clean, maintainable code and always stay updated with the latest UI/UX trends.
+							My journey into web development didn't start with just code; it started with systems. With a background in Management Information Systems (MIS), I developed a strong
+							foundation in analyzing complex data and understanding how robust systems work behind the scenes. This analytical mindset naturally drove me toward frontend architecture,
+							where I found my true passion: bridging the gap between solid system logic and seamless user experiences.
+							<br />
+							Today, I specialize in engineering high-performance web applications using <strong className="gradient-text">React</strong> and{" "}
+							<strong className="gradient-text">Next.js</strong>. I obsess over Core Web Vitals, clean state management, and pixel-perfect UIs to ensure that every project I build is not
+							only visually striking but also lightning-fast, scalable, and highly accessible.
 						</p>
 
 						<div className="stats-grid grid grid-cols-1 sm:grid-cols-3 gap-6">

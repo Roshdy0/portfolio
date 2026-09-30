@@ -6,7 +6,7 @@ const Skills = () => {
 	const skills = [
 		{ name: "Core Frontend Stack", level: "Advanced", lan: "HTML5, CSS3, JavaScript (ES6+), React.js, Next.js" },
 		{ name: "Modern Styling", level: "Advanced", lan: "CSS3, SASS, Bootstrap 5, Tailwind CSS" },
-		{ name: "E-commerce (E-commerce & CMS)", level: "Intermediate", lan: "WordPress, Shopify Development" },
+		{ name: "Architecture & APIs", level: "Intermediate", lan: "Zustand, React Query, Context API, REST APIs, Axios" },
 		{ name: "The Analytical Edge", level: "Advanced", lan: "Automation (VBA), SQL Server, Database Management & Design" },
 		{ name: "Optimized Soft Skills", level: "Advanced", lan: "Business Suite: Microsoft Office, UI/UX Tools: Adobe Photoshop" },
 		{ name: "Design & Productivity ", level: "Advanced", lan: "Problem Solving, Attention to Detail, Analytical Thinking, Continuous Learning" },
