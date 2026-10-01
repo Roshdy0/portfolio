@@ -1,11 +1,12 @@
-import Hero from "./component/hero/hero";
-import About from "./component/About/About";
-import Header from "./component/header/header";
-import Skills from "./component/Skills/Skills";
-import Footer from "./component/Footer/Footer";
-import Contact from "./component/Contact/Contact";
-import Projects from "./component/Projects/Projects";
-import FloatingButtons from "./component/FloatingButtons/FloatingButtons";
+import Hero from "@/app/component/hero/hero";
+import About from "@/app/component/About/About";
+import CareerJourney from "@/app/component/CareerJourney/CareerJourney";
+import Header from "@/app/component/header/header";
+import Skills from "@/app/component/Skills/Skills";
+import Footer from "@/app/component/Footer/Footer";
+import Contact from "@/app/component/Contact/Contact";
+import Projects from "@/app/component/Projects/Projects";
+import FloatingButtons from "@/app/component/FloatingButtons/FloatingButtons";
 
 export default function Home() {
 	return (
@@ -14,6 +15,7 @@ export default function Home() {
 			<Hero />
 			<Skills />
 			<About />
+			<CareerJourney />
 			<Projects />
 			<Contact />
 			<FloatingButtons />

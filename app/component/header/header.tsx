@@ -23,6 +23,10 @@ const Header = () => {
 			link: "about",
 		},
 		{
+			to: "CareerJourney",
+			link: "CareerJourney",
+		},
+		{
 			to: "projects",
 			link: "projects",
 		},
